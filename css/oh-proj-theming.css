@@ -8,7 +8,6 @@
 -------------------------------------------------- */
 
 body {
-  font-size: 13px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -19,15 +18,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 1.6rem;
 }
 
 .navbar-toggler-icon.custom-toggler {
@@ -44,7 +43,8 @@ code {
   color: #f7763e;
 }
 
-.nav > li > a, .nav-item, .navbar-nav > .form-inline, .btn {
+.nav > li > a, .navbar-form, .btn,
+.nav-item, .navbar-nav > .form-inline {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -187,6 +187,7 @@ a:focus,
 
 .jumbotron {
   background-color: #e6f9fa;
+  padding: 32px;
 }
 
 .panel-default {
@@ -196,4 +197,34 @@ a:focus,
 .panel-default > .panel-heading {
     background-color: #e6f9fa;
     border-color: #4ac1c8;
+}
+
+body {
+  font-size: 0.95rem;
+}
+
+.oh-cnxn-icon {
+  max-height: 6rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.0rem;
+  }
+  .oh-cnxn-icon {
+    max-height: none;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.1rem;
+  }
 }
