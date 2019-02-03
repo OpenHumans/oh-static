@@ -207,14 +207,12 @@ body {
 .oh-cnxn-icon {
   max-height: 6rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 768px) {
   body {
     font-size: 1.0rem;
-  }
-  .oh-cnxn-icon {
-    max-height: none;
   }
 }
 
