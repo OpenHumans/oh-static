@@ -1,0 +1,292 @@
+
+  /* Text fonts and styles
+
+  OH brand orange: #ff9161
+  OH brand teal: #4ac1c8
+  Darkened teal: #009fa8
+  Light orange: #ffceb9
+  Light teal: #c9ecef
+-------------------------------------------------- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #4d4d4d;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+.navbar-toggler-icon.custom-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(74,193,200, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler.custom-toggler {
+  border: 1px solid #009fa888;
+}
+
+
+code {
+  background-color: inherit;
+  color: #f7763e;
+}
+
+.nav > li > a, .navbar-form, .btn,
+.nav-item, .navbar-nav > .form-inline {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a,
+.navbar-open-humans > .navbar-nav > li > a,
+.navbar-open-humans > .navbar-brand {
+  color: #009fa8;
+}
+
+.navbar-default,
+.navbar-open-humans {
+  border-radius: 0px;
+  background-color: #fff;
+  border: 0px;
+}
+
+a:hover,
+a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-open-humans > .navbar-nav > li > a:hover,
+.navbar-open-humans > .navbar-nav > li > a:focus,
+.navbar-open-humuans > .navbar-brand:hover,
+.navbar-open-humans > .navbar-brand:focus {
+  color: #008c94;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-open-humans > .navbar-nav > .active > a,
+.navbar-open-humans > .navbar-nav > .active > a:focus,
+.navbar-open-humans > .navbar-nav > .active > a:hover {
+  color: #008c94;
+  background-color: #e6f9fa;
+}
+
+.btn-default {
+  background-color: #fff;
+  border: 2px solid #009fa8;
+  color: #009fa8;
+  padding: 5px 10px;
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: #e6f9fa;
+  border: 2px solid #009fa8;
+  color: #008c94;
+  padding: 5px 10px;
+}
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
+
+.btn-group-xs>.btn.btn-primary.btn-primary-hollow,
+.btn.btn-primary.btn-primary-hollow.btn-xs,
+.btn-group-xs>.btn.btn-primary.btn-primary-hollow:hover,
+.btn.btn-primary.btn-primary-hollow.btn-xs:hover,
+.btn-group-xs>.btn.btn-primary.btn-primary-hollow:focus,
+.btn.btn-primary.btn-primary-hollow.btn-xs:focus,
+.btn-group-xs>.btn.btn-default, .btn.btn-default.btn-xs,
+.btn-group-xs>.btn.btn-default:hover, .btn.btn-default.btn-xs:hover,
+.btn-group-xs>.btn.btn-default:focus, .btn.btn-default.btn-xs:focus {
+    padding: 0px 4px;
+}
+
+.btn-group-sm>.btn.btn-primary.btn-primary-hollow,
+.btn.btn-primary.btn-primary-hollow.btn-sm,
+.btn-group-sm>.btn.btn-primary.btn-primary-hollow:hover,
+.btn.btn-primary.btn-primary-hollow.btn-sm:hover,
+.btn-group-sm>.btn.btn-primary.btn-primary-hollow:focus,
+.btn.btn-primary.btn-primary-hollow.btn-sm:focus,
+.btn-group-sm>.btn.btn-default, .btn.btn-default.btn-sm,
+.btn-group-sm>.btn.btn-default:hover, .btn.btn-default.btn-sm:hover,
+.btn-group-sm>.btn.btn-default:focus, .btn.btn-default.btn-sm:focus {
+    padding: 4px 9px;
+}
+
+.btn-group-lg>.btn.btn-primary.btn-primary-hollow,
+.btn.btn-primary.btn-primary-hollow.btn-lg,
+.btn-group-lg>.btn.btn-primary.btn-primary-hollow:hover,
+.btn.btn-primary.btn-primary-hollow.btn-lg:hover,
+.btn-group-lg>.btn.btn-primary.btn-primary-hollow:focus,
+.btn.btn-primary.btn-primary-hollow.btn-lg:focus,
+.btn-group-lg>.btn.btn-default, .btn.btn-default.btn-lg,
+.btn-group-lg>.btn.btn-default:hover, .btn.btn-default.btn-lg:hover,
+.btn-group-lg>.btn.btn-default:focus, .btn.btn-lg.btn-default:focus,
+.btn-group-lg>.btn.btn-primary-hollow, .btn.btn-default.btn-lg,
+.btn-group-lg>.btn.btn-default:hover, .btn.btn-default.btn-lg:hover,
+.btn-group-lg>.btn.btn-default:focus, .btn-lg.btn-default.btn-lg:focus {
+    padding: 9px 15px;
+}
+
+.btn-primary.btn-primary-hollow {
+  background-color: #fff;
+  border: 2px solid #ff9161;
+  color: #009fa8;
+  padding: 5px 10px;
+}
+
+.btn-primary.btn-primary-hollow:hover, .btn-primary.btn-primary-hollow:focus {
+  background-color: #fff1eb;
+  border: 2px solid #f7763e;
+  color: #008c94;
+  padding: 5px 10px;
+}
+
+.btn-primary {
+  background-color: #ff9161;
+  border-color: #ff9161;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #f7763e;
+  border-color: #f7763e;
+}
+
+.btn-info {
+  background-color: #009fa8;
+  border-color: #009fa8;
+}
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #008c94;
+  border-color: #008c94;
+}
+
+.form-control {
+  border: 1px solid #009fa8;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 4px #009fa8;
+  border: 1px solid #009fa8;
+}
+
+.footer {
+  background-color: #e6f9fa;
+}
+
+.jumbotron {
+  background-color: #e6f9fa;
+  padding: 32px;
+}
+
+.panel-default {
+  border-color: #009fa8;
+}
+
+.panel-default > .panel-heading {
+    background-color: #e6f9fa;
+    border-color: #009fa8;
+}
+
+body {
+  font-size: 0.95rem;
+}
+
+.oh-cnxn-icon {
+  max-height: 6rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.0rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.1rem;
+  }
+}
+
+
+.message {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #ebfcff;
+  border-style: solid;
+  border-color: #009fa8;
+  border-width: 2px;
+  border-radius: 6px;
+}
+
+.message.error, .message.warning {
+  background-color: #ffeeee;
+  border-color: #cc0000;
+  font-weight: 800;
+}
+
+.message.success {
+  background-color: #d9ffee;
+  border-color: #00aa22;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html#oh-proj-template {
+  position: relative;
+  min-height: 100%;
+}
+#oh-proj-template body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#oh-proj-template .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#oh-proj-template body > .container {
+  padding: 60px 15px 0;
+}
+
+#oh-proj-template .footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
